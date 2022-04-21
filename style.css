@@ -1,0 +1,101 @@
+:root {
+    --secondary: #8C4130;
+    --primary: #F27052;
+    --secondary-block: #032CA6;
+}
+
+html {
+    background-color: #F2DEDC;
+}
+
+body {
+    padding: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.center {
+    display: block;
+    text-align: center;
+}
+
+.subtitle {
+    text-transform: uppercase;
+    color: var(--secondary);
+    letter-spacing: 1.5px;
+}
+
+.block > .title {
+    font-size: 1.3rem;
+}
+
+.block > .subtitle {
+    font-size: .8rem;
+    margin-bottom: .5rem;
+}
+
+.block > .emoji {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+
+.emoji {
+    font-size: 1.8rem;
+    margin-right: 1rem;
+}
+
+h2 {
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid black;
+    padding-bottom: .5rem;
+}
+
+article {
+    font-size: 1.5rem;
+    line-height: 2.6rem;
+}
+
+.row {
+    display: flex;
+    gap: 3rem;
+    margin: 4rem 0 2rem 0;
+}
+
+.row > div {
+    flex: 1;
+}
+
+.title {
+    margin: 0;
+}
+
+.block {
+    padding: 1rem;
+    background-color: var(--primary);
+    min-height: 12rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 0 20px #00000070;
+    border-radius: 10px;
+}
+
+.light {
+    color: #fff;
+    font-weight: 100;
+}
+
+h1 {
+    font-size: 4rem;
+    line-height: 3rem;
+}
+
+footer {
+    text-align: center;
+    font-size: 1.5rem;
+    letter-spacing: 5px;
+    margin-top: 2rem;
+    color: var(--secondary);
+}
